@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=SecondPane
+comment0.text=\r\n\ Write\ a\ description\ of\ JavaFX\ class\ SecondPane\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ initialiseUI()
+comment2.params=
+comment2.target=void\ updatePane()
+comment3.params=borough
+comment3.target=javafx.scene.control.Button\ addButton(java.lang.String)
+comment4.params=btn\ currentBoroughDeaths
+comment4.target=void\ changeButtonColour(javafx.scene.control.Button,\ int)
+comment5.params=covidDataList\ borough
+comment5.target=java.util.List\ specificBoroughData(java.util.List,\ java.lang.String)
+comment6.params=
+comment6.target=void\ buttonColourIterator()
+comment7.params=
+comment7.target=void\ addBoroughBTN()
+comment8.params=totalDeathsTogether\ boroughNum
+comment8.target=int\ totalBoroughsAverageDeaths(int,\ int)
+comment9.params=covidList\ startDate\ endDate
+comment9.target=int\ getNewDeathsForBorough(java.util.List,\ java.lang.String,\ java.lang.String)
+comment9.text=private\ int\ boroughDifferenceDeaths(String\ borough){\r\n\ \ \ \ \ \ \ \ //get\ the\ startDate\ \r\n\ \ \ \ \ \ \ \ //get\ the\ endDate\ \r\n\ \ \ \ \ \ \ \ //int\ newDeaths\ \=\ getNewDeathsForBorough(borough,covidDataList);\r\n\ \ \ \ \ \ \ \ int\ finalTotal\ \=\ 0;\r\n\ \ \ \ \ \ \ \ return\ finalTotal;\ //change\r\n}
+numComments=10
