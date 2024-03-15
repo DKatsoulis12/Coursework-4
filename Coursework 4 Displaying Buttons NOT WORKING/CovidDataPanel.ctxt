@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=CovidDataPanel
+comment0.text=\r\n\ Write\ a\ description\ of\ JavaFX\ class\ SecondPane\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ initialiseUI()
+comment1.text=private\ HashMap<String,Button>\ boroughNamesMappings\ \=\ new\ HashMap<String,Button>(){{\r\n\ \ \ \ \ \ \ \ put("Enfield",addButton("ENFI"));\ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ put("Barnet",addButton("BARN"));\ put("Haringey",addButton("HRGY"));\ put("Waltham\ Forest",addButton("WALT"));\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ put("Harrow",addButton("HRRW"));\ put("Brent",addButton("BREN"));\ put("Camden",addButton("CAMD"));\ put("Islington",addButton("ISLI"));\r\n\ \ \ \ \ \ \ \ put("Hackney",addButton("HACK"));\ put("Redbridge",addButton("REDB"));\ put("Havering",addButton("HAVE"));\ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ put("Hillingdon",addButton("HILL"));\ put("Ealing",addButton("EALI"));\ put("Kensington\ And\ Chelsea",addButton("KENS"));\ put("Westminster",addButton("WSTM"));\ \r\n\ \ \ \ \ \ \ \ put("Tower\ Hamlets",addButton("TOWH"));\ put("Newham",addButton("NEWH"));\ put("Barking\ And\ Dagenham",addButton("BARK"));\ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ put("Hounslow",addButton("HOUN"));\ put("Hammersmith\ And\ Fulham",addButton("HAMM"));\ put("Wandsworth",addButton("WAND"));\ put("City\ Of\ London",addButton("CITY"));\ \r\n\ \ \ \ \ \ \ \ put("Greenwich",addButton("GWCH"));\ put("Bexley",addButton("BEXL"));\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ put("Richmond\ Upon\ Thames",addButton("RICH"));\ put("Merton",addButton("MERT"));\ put("Lambeth",addButton("LAMB"));\ \r\n\ \ \ \ \ \ \ \ put("Southwark",addButton("STHW"));\ put("Lewisham",addButton("LEWS"));\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ put("Kingston\ Upon\ Thames",addButton("KING"));\ put("Sutton",addButton("SUTT"));\ put("Croydon",addButton("CROY"));\ \r\n\ \ \ \ \ \ \ \ put("Bromley",addButton("BROM"));\r\n}};
+comment10.params=
+comment10.target=void\ addBoroughButtons()
+comment11.params=
+comment11.target=void\ getUniqueBoroughs()
+comment2.params=
+comment2.target=void\ updatePane()
+comment3.params=
+comment3.target=void\ calculateAverageDeaths()
+comment4.params=borough
+comment4.target=javafx.scene.control.Button\ addButton(java.lang.String)
+comment5.params=btn\ currentBoroughDeaths
+comment5.target=void\ changeButtonColour(javafx.scene.control.Button,\ int)
+comment6.params=covidDataList\ borough
+comment6.target=java.util.List\ specificBoroughData(java.util.List,\ java.lang.String)
+comment7.params=
+comment7.target=void\ buttonColourIterator()
+comment8.params=totalDeathsTogether\ boroughNum
+comment8.target=int\ totalBoroughsAverageDeaths(int,\ int)
+comment9.params=covidList\ startDate\ endDate
+comment9.target=int\ getNewDeathsForBorough(java.util.List,\ java.lang.String,\ java.lang.String)
+numComments=12
