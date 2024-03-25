@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=FourthPane
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ FourthPane\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=FourthPane()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ FourthPane\r\n
+comment2.params=
+comment2.target=void\ getUpdatedDate()
+comment3.params=
+comment3.target=void\ updatePane()
+comment3.text=\r\n\ \ \ \ public\ void\ loadPage()\ {\r\n\ \ \ \ \ \ \ \ getUpdatedDate();\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ LineChart\ <String,\ Integer>\ graphToDisplay;\r\n\ \ \ \ \ \ \ \ if\ (currentGraphNum\ \=\=\ 1)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ graphToDisplay\ \=\ generateCasesAndTestsGraph();\r\n\ \ \ \ \ \ \ \ \ \ \ \ setCenter(graphToDisplay);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else\ if\ (currentGraphNum\ \=\=\ 2)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ graphToDisplay\ \=\ generateDeathsGraph();\r\n\ \ \ \ \ \ \ \ \ \ \ \ setCenter(graphToDisplay);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else\ if\ (currentGraphNum\ \=\=\ 3)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ graphToDisplay\ \=\ generateCovidCasesGraph();\r\n\ \ \ \ \ \ \ \ \ \ \ \ setCenter(graphToDisplay);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n}
+comment4.params=event
+comment4.target=void\ goLeft(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ goRight(javafx.event.ActionEvent)
+comment6.params=
+comment6.target=javafx.scene.chart.LineChart\ generateCovidCasesGraph()
+comment7.params=
+comment7.target=javafx.scene.chart.LineChart\ generateCasesAndTestsGraph()
+comment8.params=
+comment8.target=javafx.scene.chart.LineChart\ generateDeathsGraph()
+numComments=9
