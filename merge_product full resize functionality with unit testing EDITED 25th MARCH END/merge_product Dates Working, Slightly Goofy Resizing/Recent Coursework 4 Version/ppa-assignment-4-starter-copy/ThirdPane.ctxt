@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=ThirdPane
+comment0.text=\n\ Write\ a\ description\ of\ class\ ThirdPane\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=ThirdPane()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ThirdPane\n
+comment10.params=
+comment10.target=javafx.scene.control.Label\ generateGMR1Label_JUnitTest()
+comment11.params=
+comment11.target=javafx.scene.control.Label\ generateGMR2Label_JUnitTest()
+comment12.params=
+comment12.target=javafx.scene.control.Label\ generateTotalDeathsLabel_JUnitTest()
+comment13.params=
+comment13.target=javafx.scene.control.Label\ generateAverageCasesLabel_JUnitTest()
+comment14.params=event
+comment14.target=void\ goLeftStats_JUnitTest(javafx.event.ActionEvent)
+comment15.params=event
+comment15.target=void\ goRightStats_JUnitTest(javafx.event.ActionEvent)
+comment2.params=
+comment2.target=void\ getUpdatedDate()
+comment3.params=
+comment3.target=void\ updatePane()
+comment3.text=\n\ \ \ \ public\ void\ loadPage(){\n\ \ \ \ \ \ \ \ \ getUpdatedDate();\ \n\ \ \ \ \ \ \ \ \ Label\ newLabel;\n\ \ \ \ \ \ \ \ //newLabel.setPrefWidth(pane1.getWidth()\ -\ 135\ -\ 135);\n\ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ //\ generate\ and\ update\ appropriate\ stats\ label\n\ \ \ \ \ \ \ \ if\ (currentStatNum\ \=\=\ 1)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ newLabel\ \=\ generateTotalDeathsLabel();\n\ \ \ \ \ \ \ \ \ \ \ \ setCenter(newLabel);\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else\ if\ (currentStatNum\ \=\=\ 2)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ newLabel\ \=\ generateAverageCasesLabel();\n\ \ \ \ \ \ \ \ \ \ \ \ setCenter(newLabel);\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else\ if\ (currentStatNum\ \=\=\ 3)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ newLabel\ \=\ generateGMR1Label();\n\ \ \ \ \ \ \ \ \ \ \ \ setCenter(newLabel);\n\ \ \ \ \ \ \ \ \ \ \ \ //newLabel.setStyle("-text-align\:\ center;");\n\ \ \ \ \ \ \ \ \ \ \ \ //newLabel.setWrapText(true);\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else\ if\ (currentStatNum\ \=\=\ 4)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ newLabel\ \=\ generateGMR2Label();\n\ \ \ \ \ \ \ \ \ \ \ \ setCenter(newLabel);\n\ \ \ \ \ \ \ \ \ \ \ \ //newLabel.setWrapText(true);\n\ \ \ \ \ \ \ \ \ \ \ \ //newLabel.setStyle("-fx-alignment\:\ center;");\n\ \ \ \ \ \ \ \ }\n}
+comment4.params=event
+comment4.target=void\ goLeftStats(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ goRightStats(javafx.event.ActionEvent)
+comment6.params=
+comment6.target=javafx.scene.control.Label\ generateTotalDeathsLabel()
+comment7.params=
+comment7.target=javafx.scene.control.Label\ generateAverageCasesLabel()
+comment8.params=
+comment8.target=javafx.scene.control.Label\ generateGMR1Label()
+comment9.params=
+comment9.target=javafx.scene.control.Label\ generateGMR2Label()
+numComments=16
