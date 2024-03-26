@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DateChecker
+comment0.text=\n\ Write\ a\ description\ of\ class\ dateChecker\ here.\n\ Ryan\ does\ description\ \n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=DateChecker\ getInstance()
+comment1.text=\n\ Gets\ the\ single\ instance\ of\ the\ {@code\ DateChecker}\ class,\ creating\ it\ if\ it\ doesn't\ exist.\n\ This\ method\ implements\ the\ Singleton\ design\ pattern\ to\ ensure\ that\ only\ one\ instance\ of\ {@code\ DateChecker}\ is\ used.\n\ \n\ @return\ The\ single\ instance\ of\ {@code\ DateChecker}.\n
+comment2.params=
+comment2.target=DateChecker()
+comment2.text=\n\ Constructor\ for\ objects\ of\ class\ dateChecker\n
+comment3.params=startDate\ endDate
+comment3.target=boolean\ checkButtonDisability(java.time.LocalDate,\ java.time.LocalDate)
+comment3.text=\n\ Checks\ if\ the\ button\ should\ be\ disabled\ based\ on\ the\ validity\ of\ the\ start\ and\ end\ dates\ provided\ by\ the\ user.\n\ The\ button\ is\ disabled\ if\ the\ start\ date\ is\ after\ the\ end\ date,\ or\ if\ the\ dates\ are\ not\ within\ the\ range\ of\ available\ Covid\ data.\n\ \n\ @param\ startDate\ The\ start\ date\ selected\ by\ the\ user.\n\ @param\ endDate\ The\ end\ date\ selected\ by\ the\ user.\n\ @return\ {@code\ true}\ if\ the\ button\ should\ be\ disabled\ due\ to\ invalid\ date\ selection;\ {@code\ false}\ otherwise.\n
+comment4.params=
+comment4.target=boolean\ checkButtonDisability2()
+comment4.text=\n\ Checks\ if\ the\ button\ should\ be\ disabled\ based\ on\ the\ validity\ of\ the\ start\ and\ end\ dates\ obtained\ from\ the\ {@code\ AppGUI}\ instance.\n\ Similar\ to\ {@code\ checkButtonDisability},\ but\ retrieves\ the\ dates\ directly\ from\ the\ {@code\ AppGUI}\ instance.\n\ \n\ @return\ {@code\ true}\ if\ the\ button\ should\ be\ disabled\ due\ to\ invalid\ date\ selection;\ {@code\ false}\ otherwise.\n
+comment5.params=startLarger\ invalidRange
+comment5.target=void\ setAlertText(boolean,\ boolean)
+comment5.text=\n\ Sets\ the\ alert\ text\ based\ on\ the\ reasons\ for\ date\ selection\ invalidity.\n\ If\ the\ start\ date\ is\ after\ the\ end\ date,\ a\ specific\ message\ is\ set.\ If\ the\ date\ range\ is\ not\ within\ the\ available\ data,\ another\ message\ is\ set.\n\ \n\ @param\ startLarger\ Indicates\ whether\ the\ start\ date\ is\ after\ the\ end\ date.\n\ @param\ invalidRange\ Indicates\ whether\ the\ selected\ date\ range\ is\ not\ within\ the\ range\ of\ available\ data.\n
+comment6.params=
+comment6.target=void\ alertSetUp()
+comment6.text=\n\ Sets\ up\ and\ displays\ an\ alert\ with\ information\ about\ the\ invalid\ date\ selection.\n\ The\ content\ of\ the\ alert\ is\ determined\ by\ the\ {@code\ alertTxt}\ set\ in\ {@code\ setAlertText}.\n\ This\ method\ is\ used\ to\ inform\ the\ user\ about\ why\ their\ date\ selection\ is\ invalid.\n
+numComments=7
