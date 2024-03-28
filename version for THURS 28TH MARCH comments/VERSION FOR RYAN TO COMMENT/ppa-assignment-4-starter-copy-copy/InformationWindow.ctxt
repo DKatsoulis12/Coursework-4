@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InformationWindow
+comment0.text=\n\ The\ InformationWindow\ class\ creates\ a\ detailed\ view\ of\ CovidData\ for\ a\ specific\ London\ borough,\ allowing\ users\ to\ visualize\ and\ sort\ data\ across\ various\ metrics\ such\ as\ case\ counts\ and\ mobility\ reports.\n\ This\ class\ dynamically\ generates\ a\ TableView\ to\ display\ data,\ a\ ComboBox\ for\ data\ sorting,\ and\ manages\ data\ visualization\ with\ sortable\ columns\ for\ different\ data\ attributes\n\n\ Key\ features\ include\:\n\ -\ Display\ of\ CovidData\ Objects\ in\ a\ sortable\ TableView\ format.\n\ -\ A\ ComboBox\ control\ that\ lets\ users\ choose\ the\ data\ sorting\ order\ based\ on\ various\ attributes\ such\ as\ date,\ case\ counts,\ or\ mobility\ metrics.\n\ -\ Automatic\ table\ update\ mechanism\ to\ reflect\ the\ selected\ sort\ order\n\ -\ Flexible\ data\ sorting\ options(Ascending\ or\ Descending)\ to\ facilitate\ comparative\ analysis\ and\ insights\ derivation.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=boroughDataRangeData\ boroughName
+comment1.target=InformationWindow(java.util.List,\ java.lang.String)
+comment1.text=\n\ Constructs\ an\ InformationWindow\ instance\ with\ a\ specified\ list\ of\ CovidData\ for\ a\ particular\ borough.\n\ Initializes\ the\ ObservableList\ data\ with\ the\ provided\ list\ of\ CovidData\ and\ sets\ the\ current\ borough\ name.\n\n\ @param\ boroughDataRangeData\ The\ list\ of\ {@link\ CovidData}\ for\ the\ specific\ borough.\n\ @param\ boroughName\ The\ name\ of\ the\ borough\ for\ which\ data\ is\ to\ be\ displayed.\n
+comment2.params=stage
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\n\ Starts\ and\ displays\ the\ application\ window\ with\ a\ TableView\ populated\ with\ CovidData\ for\ a\ specific\ borough.\n\ Initializes\ UI\ components\ including\ a\ ComboBox\ for\ sorting\ and\ TableColumns\ for\ data\ display.\n\n\ @param\ stage\ The\ primary\ stage\ for\ this\ application,\ onto\ which\ the\ scene\ containing\ the\ TableView\ will\ be\ set.\n
+comment3.params=
+comment3.target=void\ orderBy()
+comment3.text=\n\ Configures\ the\ ComboBox\ used\ for\ ordering\ the\ TableView\ data.\ Sets\ an\ action\ listener\ that\ updates\ the\n\ TableView's\ sortOrder\ based\ on\ the\ selected\ option.\n
+numComments=4

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FirstPane
+comment0.text=\n\ Represents\ the\ introductory\ pane\ in\ a\ JavaFX\ application,\ displaying\ initial\ instructions\ and\ the\ functionality\ of\ subsequent\ panes.\ \n\ It\ guides\ users\ through\ the\ application's\ date\ range\ and\ the\ specific\ insights\ available\ in\ each\ pane\ related\ to\ COVID-19\ data\ visualization.\n\ Upon\ initialization,\ it\ sets\ up\ labels\ to\ introduce\ the\ application,\ detail\ the\ navigational\ aspects,\ and\ describe\ the\ data\ visualization\ \n\ each\ pane\ offers,\ such\ as\ maps\ of\ boroughs,\ statistics,\ and\ graphs\ for\ COVID-19\ metrics.\ Additionally,\ it\ includes\ dynamic\ labels\ to\ \n\ display\ the\ selected\ start\ and\ end\ dates,\ updating\ these\ as\ the\ user\ interacts\ with\ the\ application.\n
+comment1.params=
+comment1.target=FirstPane()
+comment1.text=\n\ Initializes\ the\ pane\ with\ instructional\ content\ and\ dynamic\ date\ labels.\n\ Sets\ up\ the\ layout\ and\ content\ of\ the\ welcome,\ instructions,\ pane\ descriptions,\ and\ navigation\ labels.\n\ Also\ initializes\ labels\ to\ display\ the\ currently\ selected\ start\ and\ end\ dates.\n
+comment2.params=
+comment2.target=void\ updateStartDate()
+comment2.text=\n\ Updates\ the\ label\ to\ display\ the\ currently\ selected\ start\ date\ from\ the\ application's\ date\ picker.\n\ This\ method\ is\ intended\ to\ be\ called\ whenever\ the\ start\ date\ in\ the\ application\ changes.\n
+comment3.params=
+comment3.target=void\ updateEndDate()
+comment3.text=\n\ Updates\ the\ label\ to\ display\ the\ currently\ selected\ end\ date\ from\ the\ application's\ date\ picker.\n\ This\ method\ is\ intended\ to\ be\ called\ whenever\ the\ end\ date\ in\ the\ application\ changes.\n
+comment4.params=
+comment4.target=void\ updatePane()
+comment4.text=\n\ overrided\ from\ AppPane\ interface,\ but\ unused\n
+numComments=5

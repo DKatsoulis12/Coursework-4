@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=AppPane
+comment0.text=\n\ interface\ used\ to\ group\ all\ panes\ used\ in\ the\ application\ and\ force\ them\ have\ the\ updatePane()\ method\ so\ {@code\ AppGUI}\ can\ call\ it\ when\ needed\n
+comment1.params=
+comment1.target=void\ updatePane()
+comment1.text=\n\ called\ to\ update\ the\ pane,\ panes\ that\ do\ not\ require\ updating\ will\ implement\ it\ with\ nothing\ in\ it.\n
+numComments=2
